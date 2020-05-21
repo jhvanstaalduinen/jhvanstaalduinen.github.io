@@ -1,7 +1,7 @@
-baseurl: /main
-title: Personal website
+baseurl: /tufte-jekyll
+title: Tufte-Jekyll
 subtitle: Content-centric blogging
-author: J.H. van Staalduinen
+author: clay harmon
 simple_search: http://google.com/search
 description: A Jekyll theme for content-rich sites
 name: tufte

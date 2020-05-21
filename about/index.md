@@ -1,5 +1,5 @@
 ---
-layout: full-width
+layout: post
 title: About
 ---
 
