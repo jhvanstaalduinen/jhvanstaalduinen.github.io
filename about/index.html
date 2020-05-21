@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Personal website</title>
+  <title>About</title>
   <meta name="description" content="A Jekyll theme for content-rich sites">
 
   <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
@@ -45,12 +45,12 @@
   <link rel="stylesheet" type="text/css" href="/tufte-jekyll/css/tufte.css">
   <!-- <link rel="stylesheet" type="text/css" href="/tufte-jekyll/css/print.css" media="print"> -->
 
-  <link rel="canonical" href="http://localhost:4000/tufte-jekyll/404.html">
+  <link rel="canonical" href="http://localhost:4000/tufte-jekyll/about/">
 
   <link rel="alternate" type="application/rss+xml" title="Personal website" href="http://localhost:4000/tufte-jekyll/feed.xml" />
 </head>
 
-  <body>
+  <body class="full-width">
     <!--- Header and nav template site-wide -->
 <header>
     <nav class="group">
@@ -58,13 +58,13 @@
 	
 		
 		    
-		      <a class="active" href="/tufte-jekyll/404.html" class="active"></a>
+		      <a href="/tufte-jekyll/404.html"></a>
 		    
 	    
   	
 		
 		    
-		      <a href="/tufte-jekyll/about/">About</a>
+		      <a class="active" href="/tufte-jekyll/about/" class="active">About</a>
 		    
 	    
   	
@@ -84,7 +84,7 @@
   	
 		
 		    
-		      <a href="/tufte-jekyll/about/">About</a>
+		      <a class="active" href="/tufte-jekyll/about/" class="active">About</a>
 		    
 	    
   	
@@ -104,30 +104,18 @@
   	
 	</nav>
 </header>
-    <article class="group">
-      <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+    <article>
+      <p>The <em>Tufte-Jekyll</em> theme is a natural extension of the work done by <a href="https://github.com/edwardtufte/tufte-css">Edward Tufte</a> and his collaborators on Github who created a CSS file that allows web writers to use the same simple and elegant style employed in his published materials.</p>
 
-<div class="container">
-  <h1>404</h1>
+<p>To incorporate these styles into a Jekyll theme, I have made some very slight modifications that attempt to maintain the feel of the CSS styles in his Github repo.</p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<p>Note that this is a full-width layout. This was accomplished by including <code class="highlighter-rouge">layout: full-width</code> in the YAML front matter for this page. Keep in mind that all the Tufte-Jekyll sidenote and marginnote goodness will not work on full-width layouts!</p>
+
+<p>You can find the source code for Jekyll at <a href="https://github.com/jekyll/jekyll">github.com/jekyll/jekyll</a>.</p>
+
 
     </article>
-    <span class="print-footer"> - J.H. van Staalduinen</span>
+    <span class="print-footer">About - J.H. van Staalduinen</span>
     <footer>
   <hr class="slender">
   <ul class="footer-links">

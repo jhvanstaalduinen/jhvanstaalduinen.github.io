@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Personal website</title>
+  <title>page</title>
   <meta name="description" content="A Jekyll theme for content-rich sites">
 
   <!-- Google Fonts loaded here depending on setting in _data/options.yml true loads font, blank does not-->
@@ -45,7 +45,7 @@
   <link rel="stylesheet" type="text/css" href="/tufte-jekyll/css/tufte.css">
   <!-- <link rel="stylesheet" type="text/css" href="/tufte-jekyll/css/print.css" media="print"> -->
 
-  <link rel="canonical" href="http://localhost:4000/tufte-jekyll/404.html">
+  <link rel="canonical" href="http://localhost:4000/tufte-jekyll/page/">
 
   <link rel="alternate" type="application/rss+xml" title="Personal website" href="http://localhost:4000/tufte-jekyll/feed.xml" />
 </head>
@@ -58,7 +58,7 @@
 	
 		
 		    
-		      <a class="active" href="/tufte-jekyll/404.html" class="active"></a>
+		      <a href="/tufte-jekyll/404.html"></a>
 		    
 	    
   	
@@ -90,7 +90,7 @@
   	
 		
 		    
-		      <a href="/tufte-jekyll/page/">page</a>
+		      <a class="active" href="/tufte-jekyll/page/" class="active">page</a>
 		    
 	    
   	
@@ -105,29 +105,40 @@
 	</nav>
 </header>
     <article class="group">
-      <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+      <h1>page</h1>
+<p class="subtitle"></p>
 
-<div class="container">
-  <h1>404</h1>
+<p><span class="newthought">In this first iteration</span>  of the <em>Tufte-Jekyll</em> theme, a post and a page have exactly the same layout. That means that all the typographic and structural details are identical between the two.</p>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
-</div>
+<h2 id="pages-and-posts">Pages and Posts</h2>
+
+<p>Jekyll provides for both pages and posts in its default configuration. I have left this as-is.</p>
+
+<h3 id="posts">Posts</h3>
+
+<p>Conceptually, posts are for recurring pieces of similar content such as might be found in a typical blog entry. Post content all sits in a folder named <code class="highlighter-rouge">_posts</code> and files are created in this folder<label for="1" class="margin-toggle sidenote-number"></label><input type="checkbox" id="1" class="margin-toggle" /><span class="sidenote">Yes, a page has essentially the same old shit as a post </span> that are names with a date pre-pended to the title of the post. For instance <code class="highlighter-rouge">2105-02-20-this-is-a-post.md</code> is a perfectly valid post filename.</p>
+
+<p>Posts will always have a section above the content itself consisting of YAML front matter, which is meta-data information about the post. Minimally, a post title must always be present for it to be processed properly.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+Title: Some Title
+---
+## Content
+
+Markdown formatted content *here*.
+</code></pre></div></div>
+
+<h3 id="pages">Pages</h3>
+
+<p>Pages are any HTML documents <em>or</em> Markdown documents with YAML front matter that are then converted to content. Page material is more suited to static, non-recurring types of content. Like this</p>
+
+<p>I am not going to re-write the Jekyll documentation. Read it and you will figure out how the site is structured.</p>
+
+
+
 
     </article>
-    <span class="print-footer"> - J.H. van Staalduinen</span>
+    <span class="print-footer">page - J.H. van Staalduinen</span>
     <footer>
   <hr class="slender">
   <ul class="footer-links">
