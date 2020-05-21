@@ -1,1 +1,2 @@
-cp _site/* ../jhvanstaalduinen.github.io/
+cp -R _site/* ../jhvanstaalduinen.github.io/
+echo "Copy complete."
