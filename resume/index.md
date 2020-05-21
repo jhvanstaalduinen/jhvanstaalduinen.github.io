@@ -23,5 +23,9 @@ In the summer of 2018, I was a student trainee for two months at this Dutch law 
 ## Education
 **BSc in Computer Science**
 
+At Leiden University. My bachelor thesis was on tracking methods for animals, supervised by J.N. Kok (who since then has moved to the University of Twente to lead their Faculty of Electrical Engineering, Mathematics and Computer Science).
+
 **LLB in Law**
+
+Also in Leiden. After completing my bachelor in Computer Science and a few electives on IT law, I thought I'd go for the full bachelor's in Law. This actually went quite well, as I managed to complete the three-year degree in two years while also completing their Honours College Law program.
 
