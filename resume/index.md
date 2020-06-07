@@ -21,7 +21,7 @@ Apart from this, nothing cool yet. I am, however, currently working on my master
 ## Business
 **Internships at De Brauw (AMS) and NautaDutilh (AMS/NY), business course with Stibbe (NY)**
 
-In the summer of 2018, I was a student trainee for two months at De Brauw Blackstone Westbroek, a Dutch law firm in the prestigious Amsterdam business area. Then, in Spring 2020, I was a student trainee for two months at NautaDutilh. The first month of this internship was with the Competition team in Amsterdam, where I received hands-on experience with the practical intricacies of European competition law. The second month was with the Finance team in New York, which was, besides very informative, of course also very cool :). I must say I very much enjoyed the atmosphere in this daunting city. Before, I had the opportunity to visit the same city as participant of Stibbe's business trip "STBB2NY".
+In the summer of 2018, I was a student trainee for two months at De Brauw Blackstone Westbroek, a Dutch law firm in the prestigious Amsterdam business area. Then, in Spring 2020, I was a student trainee for two months at NautaDutilh. The first month of this internship was with the Competition team in Amsterdam, where I received hands-on experience with the practical intricacies of European competition law. The second month was with the Finance team in New York, which was, besides very informative, of course also very cool :). I must say I very much enjoyed the atmosphere in this daunting city. Previously, I had the opportunity to visit the same city as participant of Stibbe's business trip "STBB2NY".
 
 ## Education
 **BSc in Computer Science**
