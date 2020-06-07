@@ -6,7 +6,7 @@ title: Resume
 Will be filled as life progresses. You could also take a look at my [LinkedIn](https://www.linkedin.com/in/jh-van-staalduinen/) page.
 
 ## Academic
-**Presentation at NetMob 2019:**
+**Presentation at NetMob 2019**
 
 ![alt text](../assets/img/netmob.jpg "IMG")
 
