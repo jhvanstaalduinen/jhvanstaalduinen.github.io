@@ -12,4 +12,6 @@ Our Snoopy file: <a href="../assets/docs/BMPN_Mycobacterium_signalling.xpn">BMPN
 
 <img src="../assets/img/bmpn/Mycobacterium_signalling.png" width="500"/>
 
+
+
 <img src="../assets/img/bmpn/biorender.png" width="500"/>
