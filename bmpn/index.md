@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Bio-modelling
+title: Bio-modeling
 nav_exclude: true
 ---
 
 ### Mycobacterium tuberculosis
 
-This page supports our report for the Bio-modelling course. 
+This page supports our report for the Bio-modeling course. 
 
 Click here for a link to the Snoopy file: <a href="../assets/docs/BMPN_Mycobacterium_signalling.xpn">BMPN_Mycobacterium_signalling.xpn</a> [255KB].
 
