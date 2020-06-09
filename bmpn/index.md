@@ -2,8 +2,8 @@
 layout: page
 title: Bio-modelling
 nav_exclude: true
-# Note that this index page uses a full-width layout!
 ---
+
 
 <h2> Mycobacterium tuberculosis</h2>
 <br/><br/>
