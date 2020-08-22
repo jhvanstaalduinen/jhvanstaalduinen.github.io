@@ -3,15 +3,10 @@ layout: post
 title: Code
 ---
 
-## Code snippets
-
-Useful code. Possibly.
-
 ### Whatsapp Messages Processing
 
-<a href="../assets/docs/whatsapp_export_processor.ipynb">Click here</a> for a Jupyter Notebook.
+<a href="../assets/docs/whatsapp_export_processor.ipynb">Click here</a> for a Jupyter Notebook (warning: not very polished or optimised).
 
-
-## Links to useful pages
+### Links to useful pages
 
 None yet.
