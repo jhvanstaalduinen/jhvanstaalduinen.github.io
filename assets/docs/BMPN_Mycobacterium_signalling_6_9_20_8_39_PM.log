@@ -1,0 +1,502 @@
+Session started: 6/9/20 3:47 PM
+Loaded: /Users/jan/Documents/GitHub/jhvanstaalduinen.github.io/assets/docs/BMPN_Mycobacterium_signalling.xpn
+ Charlie (v2.0-b212-r8932) - BMPN_Mycobacterium_signalling.xpn
+
+Analyzer has finished: Structural Analyzer
+starts analysis with following options:
+charlie.analyzer.structural.StructuralOptionSet
+
+number of places: 42
+number of transitions: 43
+number of arcs: 93
+
+input places:
+no input places
+output places:
+no output places
+input transitions:
+	|0.t39_Mtb_secreting_ESAT6	:1,
+	|1.t34_IRAK_synthesis	:1,
+	|2.t33_MyD88_synthesis	:1,
+	|4.t32_TLR_synthesis	:1,
+	|7.t1_surrounding_immune_cell	:1,
+	|9.t35_ubiquitin_synthesis	:1,
+	|11.t36_TAB2_3_synthesis	:1,
+	|13.t37_TAK1_synthesis	:1,
+	|21.t40_Mtb_secreting_PtpA	:1,
+	|25.t38_RTKR_synthesis	:1,
+	|26.t41_Mtb_secreting_Mce2E	:1,
+	|27.t42_Mtb_secreting_Mce3E	:1
+output transitions:
+no output transitions
+the net contains non-standard arcs
+the following transitions are incident to inhibitor arcs:
+	|0.t39_Mtb_secreting_ESAT6	:1,
+	|3.t4_activating_IRAK	:1,
+	|12.t7_activating_TAK1	:1,
+	|15.t23_creates_JNK	:1,
+	|18.t9_AP_1_transcription	:1,
+	|23.t8_AP_1_transcription	:1,
+	|34.t19_activating_ERK1_2	:1
+the net is not connected,
+there are 4 components:
+C1:
+place: TAK1, id: 12, orgId: 12
+transition: t28_activating_MAP4K_p38
+transition: t34_IRAK_synthesis
+transition: t8_ubiquitinating_PtpA
+transition: t14_cytokine_production_AP_1
+place: Growth_factors, id: 23, orgId: 23
+place: TKR, id: 24, orgId: 24
+transition: t35_ubiquitin_synthesis
+place: RAS, id: 29, orgId: 29
+transition: t16_RTK_activates_RAS
+transition: t21_activating_MAP3K_JNK
+transition: t13_cytokine_production_NFkB
+place: MAP3K_p38, id: 36, orgId: 36
+transition: t36_TAB2_3_synthesis
+t9_AP_1_transcription   pre 	|15.phospho_p38	:1 post 	|19.AP_1_transcriptome	:1
+transition: t31_creates_p38
+transition: t38_RTKR_synthesis
+transition: t20_activating_MAP4K_JNK
+place: phospho_inhibited_NFkB_complex, id: 38, orgId: 38
+place: activated_IRAK, id: 6, orgId: 6
+t4_activating_IRAK   pre 	|1.inact_IRAK	:1,
+	|3.TLR_MyD88	:1 post 	|6.activated_IRAK	:1
+t19_activating_ERK1_2   pre 	|28.MEK	:1 post 	|22.phospo_ERK1_2	:1
+t8_AP_1_transcription   pre 	|14.phospho_JNK	:1 post 	|19.AP_1_transcriptome	:1
+place: phospho_p38, id: 15, orgId: 15
+transition: t6_ubiquitinating_TRAF6
+transition: t18_activating_MEK
+transition: t15_cytokine_production_Elk
+place: Elk_transcriptome, id: 21, orgId: 21
+place: inact_IRAK, id: 1, orgId: 1
+transition: t25_phosphorylation_of_inhibited_NFkB_complex
+place: MAP3K_JNK, id: 31, orgId: 31
+transition: t1_surrounding_immune_cell
+transition: t3_reqruits_MyD88
+transition: t11_Growth_factors_bind_RTKR
+place: MAP2K4_7, id: 33, orgId: 33
+transition: t10_NF_kB_transcription
+place: phospho_NF_kB, id: 16, orgId: 16
+place: Cytokines, id: 7, orgId: 7
+place: activated_TAK1_p38, id: 13, orgId: 13
+t7_activating_TAK1   pre 	|10.ubiquitinated_TRAF6	:1,
+	|11.TAB2_3	:1,
+	|12.TAK1	:1 post 	|13.activated_TAK1_p38	:1,
+	|40.activated_TAK1_JNK	:1,
+	|41.activated_TAK1_NFkB	:1
+transition: t30_activating_MAP2K3_6
+place: MAP2K3_6, id: 34, orgId: 34
+transition: t22_activating_MAP2K4_7
+transition: t42_Mtb_secreting_Mce3E
+place: TAB2_3, id: 11, orgId: 11
+place: ubi_inh_NFkB_complex, id: 39, orgId: 39
+transition: t26_ubiquitination_NFkB_complex
+transition: t5_activating_TRAF6
+place: ubiquitinated_PtpA, id: 18, orgId: 18
+place: activated_TAK1_NFkB, id: 41, orgId: 41
+t23_creates_JNK   pre 	|33.MAP2K4_7	:1 post 	|14.phospho_JNK	:1
+transition: t2_cytokines_bind_TLR
+place: activated_TRAF6, id: 8, orgId: 8
+transition: t12_Elk_transcription
+place: NF_kB_transcriptome, id: 20, orgId: 20
+place: TLR, id: 5, orgId: 5
+place: RAF, id: 30, orgId: 30
+transition: t29_activating_MAP3K
+transition: t24_activating_IKK
+place: AP_1_transcriptome, id: 19, orgId: 19
+place: MEK, id: 28, orgId: 28
+place: Cytokine_TLR_complex, id: 4, orgId: 4
+place: TLR_MyD88, id: 3, orgId: 3
+transition: t17_activating_RAF
+place: Activated_RTK, id: 27, orgId: 27
+place: phospo_ERK1_2, id: 22, orgId: 22
+place: activated_IKK, id: 37, orgId: 37
+transition: t37_TAK1_synthesis
+transition: t32_TLR_synthesis
+place: activated_TAK1_JNK, id: 40, orgId: 40
+transition: t33_MyD88_synthesis
+place: ubiquitinated_TRAF6, id: 10, orgId: 10
+place: MAP4K_JNK, id: 32, orgId: 32
+place: ubiquitin, id: 9, orgId: 9
+transition: t40_Mtb_secreting_PtpA
+transition: t27_NFkB_activation
+place: MyD88, id: 2, orgId: 2
+place: phospho_JNK, id: 14, orgId: 14
+place: Mce3E, id: 25, orgId: 25
+place: PtpA, id: 17, orgId: 17
+place: MAP4K_p38, id: 35, orgId: 35
+C2:
+place: TAK1, id: 12, orgId: 12
+transition: t28_activating_MAP4K_p38
+transition: t34_IRAK_synthesis
+transition: t8_ubiquitinating_PtpA
+transition: t14_cytokine_production_AP_1
+place: Growth_factors, id: 23, orgId: 23
+place: TKR, id: 24, orgId: 24
+place: RAS, id: 29, orgId: 29
+transition: t35_ubiquitin_synthesis
+transition: t16_RTK_activates_RAS
+transition: t13_cytokine_production_NFkB
+transition: t21_activating_MAP3K_JNK
+place: MAP3K_p38, id: 36, orgId: 36
+transition: t36_TAB2_3_synthesis
+t9_AP_1_transcription   pre 	|15.phospho_p38	:1 post 	|19.AP_1_transcriptome	:1
+transition: t38_RTKR_synthesis
+transition: t31_creates_p38
+transition: t20_activating_MAP4K_JNK
+place: phospho_inhibited_NFkB_complex, id: 38, orgId: 38
+place: activated_IRAK, id: 6, orgId: 6
+t4_activating_IRAK   pre 	|1.inact_IRAK	:1,
+	|3.TLR_MyD88	:1 post 	|6.activated_IRAK	:1
+t19_activating_ERK1_2   pre 	|28.MEK	:1 post 	|22.phospo_ERK1_2	:1
+t8_AP_1_transcription   pre 	|14.phospho_JNK	:1 post 	|19.AP_1_transcriptome	:1
+place: phospho_p38, id: 15, orgId: 15
+transition: t6_ubiquitinating_TRAF6
+transition: t18_activating_MEK
+transition: t15_cytokine_production_Elk
+place: Elk_transcriptome, id: 21, orgId: 21
+place: inact_IRAK, id: 1, orgId: 1
+transition: t25_phosphorylation_of_inhibited_NFkB_complex
+place: MAP3K_JNK, id: 31, orgId: 31
+transition: t41_Mtb_secreting_Mce2E
+transition: t1_surrounding_immune_cell
+transition: t3_reqruits_MyD88
+transition: t11_Growth_factors_bind_RTKR
+place: MAP2K4_7, id: 33, orgId: 33
+transition: t10_NF_kB_transcription
+place: phospho_NF_kB, id: 16, orgId: 16
+place: Mce2E, id: 26, orgId: 26
+place: Cytokines, id: 7, orgId: 7
+place: activated_TAK1_p38, id: 13, orgId: 13
+t7_activating_TAK1   pre 	|10.ubiquitinated_TRAF6	:1,
+	|11.TAB2_3	:1,
+	|12.TAK1	:1 post 	|13.activated_TAK1_p38	:1,
+	|40.activated_TAK1_JNK	:1,
+	|41.activated_TAK1_NFkB	:1
+transition: t30_activating_MAP2K3_6
+place: MAP2K3_6, id: 34, orgId: 34
+transition: t22_activating_MAP2K4_7
+place: TAB2_3, id: 11, orgId: 11
+place: ubi_inh_NFkB_complex, id: 39, orgId: 39
+transition: t26_ubiquitination_NFkB_complex
+transition: t5_activating_TRAF6
+place: ubiquitinated_PtpA, id: 18, orgId: 18
+place: activated_TAK1_NFkB, id: 41, orgId: 41
+transition: t2_cytokines_bind_TLR
+t23_creates_JNK   pre 	|33.MAP2K4_7	:1 post 	|14.phospho_JNK	:1
+place: activated_TRAF6, id: 8, orgId: 8
+transition: t12_Elk_transcription
+place: NF_kB_transcriptome, id: 20, orgId: 20
+place: TLR, id: 5, orgId: 5
+place: RAF, id: 30, orgId: 30
+transition: t29_activating_MAP3K
+transition: t24_activating_IKK
+place: AP_1_transcriptome, id: 19, orgId: 19
+place: MEK, id: 28, orgId: 28
+place: Cytokine_TLR_complex, id: 4, orgId: 4
+place: TLR_MyD88, id: 3, orgId: 3
+transition: t17_activating_RAF
+place: Activated_RTK, id: 27, orgId: 27
+place: phospo_ERK1_2, id: 22, orgId: 22
+place: activated_IKK, id: 37, orgId: 37
+transition: t37_TAK1_synthesis
+transition: t32_TLR_synthesis
+place: activated_TAK1_JNK, id: 40, orgId: 40
+transition: t33_MyD88_synthesis
+place: ubiquitinated_TRAF6, id: 10, orgId: 10
+place: MAP4K_JNK, id: 32, orgId: 32
+place: ubiquitin, id: 9, orgId: 9
+transition: t40_Mtb_secreting_PtpA
+transition: t27_NFkB_activation
+place: MyD88, id: 2, orgId: 2
+place: phospho_JNK, id: 14, orgId: 14
+place: PtpA, id: 17, orgId: 17
+place: MAP4K_p38, id: 35, orgId: 35
+C3:
+place: TAK1, id: 12, orgId: 12
+transition: t28_activating_MAP4K_p38
+transition: t34_IRAK_synthesis
+transition: t8_ubiquitinating_PtpA
+transition: t14_cytokine_production_AP_1
+place: Growth_factors, id: 23, orgId: 23
+place: TKR, id: 24, orgId: 24
+transition: t35_ubiquitin_synthesis
+place: RAS, id: 29, orgId: 29
+transition: t16_RTK_activates_RAS
+transition: t21_activating_MAP3K_JNK
+transition: t13_cytokine_production_NFkB
+place: MAP3K_p38, id: 36, orgId: 36
+transition: t36_TAB2_3_synthesis
+t9_AP_1_transcription   pre 	|15.phospho_p38	:1 post 	|19.AP_1_transcriptome	:1
+transition: t31_creates_p38
+transition: t38_RTKR_synthesis
+place: phospho_inhibited_NFkB_complex, id: 38, orgId: 38
+transition: t20_activating_MAP4K_JNK
+place: activated_IRAK, id: 6, orgId: 6
+t4_activating_IRAK   pre 	|1.inact_IRAK	:1,
+	|3.TLR_MyD88	:1 post 	|6.activated_IRAK	:1
+t19_activating_ERK1_2   pre 	|28.MEK	:1 post 	|22.phospo_ERK1_2	:1
+t8_AP_1_transcription   pre 	|14.phospho_JNK	:1 post 	|19.AP_1_transcriptome	:1
+place: phospho_p38, id: 15, orgId: 15
+transition: t6_ubiquitinating_TRAF6
+transition: t18_activating_MEK
+transition: t15_cytokine_production_Elk
+place: Elk_transcriptome, id: 21, orgId: 21
+place: inact_IRAK, id: 1, orgId: 1
+transition: t25_phosphorylation_of_inhibited_NFkB_complex
+place: MAP3K_JNK, id: 31, orgId: 31
+transition: t1_surrounding_immune_cell
+transition: t3_reqruits_MyD88
+transition: t11_Growth_factors_bind_RTKR
+place: MAP2K4_7, id: 33, orgId: 33
+transition: t10_NF_kB_transcription
+place: phospho_NF_kB, id: 16, orgId: 16
+place: activated_TAK1_p38, id: 13, orgId: 13
+place: Cytokines, id: 7, orgId: 7
+t7_activating_TAK1   pre 	|10.ubiquitinated_TRAF6	:1,
+	|11.TAB2_3	:1,
+	|12.TAK1	:1 post 	|13.activated_TAK1_p38	:1,
+	|40.activated_TAK1_JNK	:1,
+	|41.activated_TAK1_NFkB	:1
+transition: t30_activating_MAP2K3_6
+place: MAP2K3_6, id: 34, orgId: 34
+transition: t22_activating_MAP2K4_7
+place: TAB2_3, id: 11, orgId: 11
+transition: t26_ubiquitination_NFkB_complex
+place: ubi_inh_NFkB_complex, id: 39, orgId: 39
+transition: t5_activating_TRAF6
+place: activated_TAK1_NFkB, id: 41, orgId: 41
+place: ubiquitinated_PtpA, id: 18, orgId: 18
+t23_creates_JNK   pre 	|33.MAP2K4_7	:1 post 	|14.phospho_JNK	:1
+transition: t2_cytokines_bind_TLR
+place: activated_TRAF6, id: 8, orgId: 8
+transition: t12_Elk_transcription
+place: NF_kB_transcriptome, id: 20, orgId: 20
+place: TLR, id: 5, orgId: 5
+place: RAF, id: 30, orgId: 30
+transition: t29_activating_MAP3K
+transition: t24_activating_IKK
+place: AP_1_transcriptome, id: 19, orgId: 19
+place: MEK, id: 28, orgId: 28
+place: Cytokine_TLR_complex, id: 4, orgId: 4
+place: TLR_MyD88, id: 3, orgId: 3
+transition: t17_activating_RAF
+place: Activated_RTK, id: 27, orgId: 27
+place: activated_IKK, id: 37, orgId: 37
+place: phospo_ERK1_2, id: 22, orgId: 22
+transition: t37_TAK1_synthesis
+transition: t32_TLR_synthesis
+place: activated_TAK1_JNK, id: 40, orgId: 40
+transition: t33_MyD88_synthesis
+place: ubiquitinated_TRAF6, id: 10, orgId: 10
+place: ubiquitin, id: 9, orgId: 9
+place: MAP4K_JNK, id: 32, orgId: 32
+transition: t40_Mtb_secreting_PtpA
+transition: t27_NFkB_activation
+place: MyD88, id: 2, orgId: 2
+place: phospho_JNK, id: 14, orgId: 14
+place: PtpA, id: 17, orgId: 17
+place: MAP4K_p38, id: 35, orgId: 35
+C4:
+place: TAK1, id: 12, orgId: 12
+transition: t34_IRAK_synthesis
+transition: t28_activating_MAP4K_p38
+transition: t8_ubiquitinating_PtpA
+transition: t14_cytokine_production_AP_1
+place: Growth_factors, id: 23, orgId: 23
+place: TKR, id: 24, orgId: 24
+transition: t35_ubiquitin_synthesis
+place: RAS, id: 29, orgId: 29
+transition: t16_RTK_activates_RAS
+place: ESAT6, id: 0, orgId: 0
+transition: t21_activating_MAP3K_JNK
+transition: t13_cytokine_production_NFkB
+place: MAP3K_p38, id: 36, orgId: 36
+transition: t36_TAB2_3_synthesis
+t9_AP_1_transcription   pre 	|15.phospho_p38	:1 post 	|19.AP_1_transcriptome	:1
+transition: t31_creates_p38
+transition: t38_RTKR_synthesis
+place: activated_IRAK, id: 6, orgId: 6
+place: phospho_inhibited_NFkB_complex, id: 38, orgId: 38
+transition: t20_activating_MAP4K_JNK
+t4_activating_IRAK   pre 	|1.inact_IRAK	:1,
+	|3.TLR_MyD88	:1 post 	|6.activated_IRAK	:1
+t19_activating_ERK1_2   pre 	|28.MEK	:1 post 	|22.phospo_ERK1_2	:1
+t8_AP_1_transcription   pre 	|14.phospho_JNK	:1 post 	|19.AP_1_transcriptome	:1
+place: phospho_p38, id: 15, orgId: 15
+transition: t6_ubiquitinating_TRAF6
+transition: t18_activating_MEK
+transition: t15_cytokine_production_Elk
+place: Elk_transcriptome, id: 21, orgId: 21
+place: inact_IRAK, id: 1, orgId: 1
+transition: t25_phosphorylation_of_inhibited_NFkB_complex
+place: MAP3K_JNK, id: 31, orgId: 31
+transition: t39_Mtb_secreting_ESAT6
+transition: t1_surrounding_immune_cell
+transition: t3_reqruits_MyD88
+transition: t11_Growth_factors_bind_RTKR
+place: MAP2K4_7, id: 33, orgId: 33
+transition: t10_NF_kB_transcription
+place: phospho_NF_kB, id: 16, orgId: 16
+place: Cytokines, id: 7, orgId: 7
+place: activated_TAK1_p38, id: 13, orgId: 13
+t7_activating_TAK1   pre 	|10.ubiquitinated_TRAF6	:1,
+	|11.TAB2_3	:1,
+	|12.TAK1	:1 post 	|13.activated_TAK1_p38	:1,
+	|40.activated_TAK1_JNK	:1,
+	|41.activated_TAK1_NFkB	:1
+transition: t30_activating_MAP2K3_6
+place: MAP2K3_6, id: 34, orgId: 34
+transition: t22_activating_MAP2K4_7
+place: TAB2_3, id: 11, orgId: 11
+transition: t26_ubiquitination_NFkB_complex
+place: ubi_inh_NFkB_complex, id: 39, orgId: 39
+transition: t5_activating_TRAF6
+place: ubiquitinated_PtpA, id: 18, orgId: 18
+place: activated_TAK1_NFkB, id: 41, orgId: 41
+t23_creates_JNK   pre 	|33.MAP2K4_7	:1 post 	|14.phospho_JNK	:1
+transition: t2_cytokines_bind_TLR
+place: activated_TRAF6, id: 8, orgId: 8
+transition: t12_Elk_transcription
+place: NF_kB_transcriptome, id: 20, orgId: 20
+place: TLR, id: 5, orgId: 5
+place: RAF, id: 30, orgId: 30
+transition: t29_activating_MAP3K
+transition: t24_activating_IKK
+place: AP_1_transcriptome, id: 19, orgId: 19
+place: MEK, id: 28, orgId: 28
+place: Cytokine_TLR_complex, id: 4, orgId: 4
+place: TLR_MyD88, id: 3, orgId: 3
+transition: t17_activating_RAF
+place: Activated_RTK, id: 27, orgId: 27
+place: activated_IKK, id: 37, orgId: 37
+place: phospo_ERK1_2, id: 22, orgId: 22
+transition: t37_TAK1_synthesis
+transition: t32_TLR_synthesis
+place: activated_TAK1_JNK, id: 40, orgId: 40
+transition: t33_MyD88_synthesis
+place: ubiquitinated_TRAF6, id: 10, orgId: 10
+place: ubiquitin, id: 9, orgId: 9
+place: MAP4K_JNK, id: 32, orgId: 32
+transition: t40_Mtb_secreting_PtpA
+transition: t27_NFkB_activation
+place: MyD88, id: 2, orgId: 2
+place: phospho_JNK, id: 14, orgId: 14
+place: PtpA, id: 17, orgId: 17
+place: MAP4K_p38, id: 35, orgId: 35
+
+Structural coupled conflict sets: 
+
+1	|0.t39_Mtb_secreting_ESAT6	:1
+2	|1.t34_IRAK_synthesis	:1
+3	|2.t33_MyD88_synthesis	:1
+4	|3.t4_activating_IRAK	:1
+5	|4.t32_TLR_synthesis	:1
+6	|5.t3_reqruits_MyD88	:1
+7	|6.t2_cytokines_bind_TLR	:1
+8	|7.t1_surrounding_immune_cell	:1
+9	|8.t5_activating_TRAF6	:1
+10	|9.t35_ubiquitin_synthesis	:1
+11	|10.t6_ubiquitinating_TRAF6	:1,
+	|22.t8_ubiquitinating_PtpA	:1,
+	|39.t26_ubiquitination_NFkB_complex	:1
+12	|11.t36_TAB2_3_synthesis	:1
+13	|12.t7_activating_TAK1	:1
+14	|13.t37_TAK1_synthesis	:1
+15	|14.t28_activating_MAP4K_p38	:1
+16	|15.t23_creates_JNK	:1
+17	|16.t31_creates_p38	:1
+18	|17.t27_NFkB_activation	:1
+19	|18.t9_AP_1_transcription	:1
+20	|19.t10_NF_kB_transcription	:1
+21	|20.t12_Elk_transcription	:1
+22	|21.t40_Mtb_secreting_PtpA	:1
+23	|23.t8_AP_1_transcription	:1
+24	|24.t11_Growth_factors_bind_RTKR	:1
+25	|25.t38_RTKR_synthesis	:1
+26	|26.t41_Mtb_secreting_Mce2E	:1
+27	|27.t42_Mtb_secreting_Mce3E	:1
+28	|28.t13_cytokine_production_NFkB	:1
+29	|29.t14_cytokine_production_AP_1	:1
+30	|30.t15_cytokine_production_Elk	:1
+31	|31.t16_RTK_activates_RAS	:1
+32	|32.t17_activating_RAF	:1
+33	|33.t18_activating_MEK	:1
+34	|34.t19_activating_ERK1_2	:1
+35	|35.t22_activating_MAP2K4_7	:1
+36	|36.t21_activating_MAP3K_JNK	:1
+37	|37.t29_activating_MAP3K	:1
+38	|38.t30_activating_MAP2K3_6	:1
+39	|40.t25_phosphorylation_of_inhibited_NFkB_complex	:1
+40	|41.t20_activating_MAP4K_JNK	:1
+41	|42.t24_activating_IKK	:1
+ 
+Structural equal conflict sets: 
+
+1	|0.t39_Mtb_secreting_ESAT6	:1
+2	|1.t34_IRAK_synthesis	:1
+3	|2.t33_MyD88_synthesis	:1
+4	|3.t4_activating_IRAK	:1
+5	|4.t32_TLR_synthesis	:1
+6	|5.t3_reqruits_MyD88	:1
+7	|6.t2_cytokines_bind_TLR	:1
+8	|7.t1_surrounding_immune_cell	:1
+9	|8.t5_activating_TRAF6	:1
+10	|9.t35_ubiquitin_synthesis	:1
+11	|10.t6_ubiquitinating_TRAF6	:1
+12	|22.t8_ubiquitinating_PtpA	:1
+13	|39.t26_ubiquitination_NFkB_complex	:1
+14	|11.t36_TAB2_3_synthesis	:1
+15	|12.t7_activating_TAK1	:1
+16	|13.t37_TAK1_synthesis	:1
+17	|14.t28_activating_MAP4K_p38	:1
+18	|15.t23_creates_JNK	:1
+19	|16.t31_creates_p38	:1
+20	|17.t27_NFkB_activation	:1
+21	|18.t9_AP_1_transcription	:1
+22	|19.t10_NF_kB_transcription	:1
+23	|20.t12_Elk_transcription	:1
+24	|21.t40_Mtb_secreting_PtpA	:1
+25	|23.t8_AP_1_transcription	:1
+26	|24.t11_Growth_factors_bind_RTKR	:1
+27	|25.t38_RTKR_synthesis	:1
+28	|26.t41_Mtb_secreting_Mce2E	:1
+29	|27.t42_Mtb_secreting_Mce3E	:1
+30	|28.t13_cytokine_production_NFkB	:1
+31	|29.t14_cytokine_production_AP_1	:1
+32	|30.t15_cytokine_production_Elk	:1
+33	|31.t16_RTK_activates_RAS	:1
+34	|32.t17_activating_RAF	:1
+35	|33.t18_activating_MEK	:1
+36	|34.t19_activating_ERK1_2	:1
+37	|35.t22_activating_MAP2K4_7	:1
+38	|36.t21_activating_MAP3K_JNK	:1
+39	|37.t29_activating_MAP3K	:1
+40	|38.t30_activating_MAP2K3_6	:1
+41	|40.t25_phosphorylation_of_inhibited_NFkB_complex	:1
+42	|41.t20_activating_MAP4K_JNK	:1
+43	|42.t24_activating_IKK	:1
+ 
+time:  0 m 0 s
+
+
+Structural Analysis Results:
+  PUR   ORD   HOM   NBM   CSV   SCF   FT0   TF0   FP0   PF0   CON   SC    NC  
+   Y     Y     Y     Y     N     N     N     Y     Y     Y     N     N    nES 
+ RKTH   STP   CPI   CTI  SCTI    SB   k-B   1-B   DCF   DSt   DTr   LIV   REV 
+   -     -     -     -     -     N     N     N     -     -     -     -     -  
+  SSI   RNK  SCCS  SEQS 
+   -     -     41    43 
+
+---------------FINAL RESULTS----------------------
+
+  PUR   ORD   HOM   NBM   CSV   SCF   FT0   TF0   FP0   PF0   CON   SC    NC  
+   Y     Y     Y     Y     N     N     N     Y     Y     Y     N     N    nES 
+ RKTH   STP   CPI   CTI  SCTI    SB   k-B   1-B   DCF   DSt   DTr   LIV   REV 
+   -     -     -     -     -     N     N     N     -     -     -     -     -  
+  SSI   RNK  SCCS  SEQS 
+   -     -     41    43 
+--------------------------------------------------
+Session finished: 6/9/20 8:39 PM
