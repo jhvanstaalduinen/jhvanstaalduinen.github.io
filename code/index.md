@@ -6,7 +6,7 @@ title: Code
 
 ### Auto-completion of Dutch case law references
 
-Any Dutch law student will recognize the painstaking effort it can take to typeset and maintain case law references in the right format ("Leidraad Juridische auteurs"). I wrote a Python script that will create a 
+A Dutch law student might recognize the effort it can take to typeset and maintain case law references in the right format ("Leidraad Juridische auteurs"). I wrote a Python script that will create a 
 correctly formatted footnote based on just the ECLI of a case (crawling the websites of the ECHR, ECJ and Rechtspraak.nl). 
 
 This way, during the writing process, you can simply put the ECLI in your footnote and quickly complete them later. 
