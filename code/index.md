@@ -6,15 +6,16 @@ title: Code
 
 ### Auto-completion of Dutch case law references
 
-Any Dutch law student will recognize the painstaking effort it takes to maintain case law references in footnotes in the right format ("Leidraad Juridische auteurs"). I wrote a Python script that will create a 
-correctly formatted footnote based on just the ECLI of a case (crawling the websites of the ECHR, ECJ and Rechtspraak.nl). This way, during the writing process, you can simply put the ECLI in your footnote and quickly complete them later. 
+Any Dutch law student will recognize the painstaking effort it can take to typeset and maintain case law references in the right format ("Leidraad Juridische auteurs"). I wrote a Python script that will create a 
+correctly formatted footnote based on just the ECLI of a case (crawling the websites of the ECHR, ECJ and Rechtspraak.nl). 
+
+This way, during the writing process, you can simply put the ECLI in your footnote and quickly complete them later. 
 It's available on <a href="https://github.com/jhvanstaalduinen/JuridischeVoetnoten">my GitHub</a>.
 
 
 <img src="../assets/img/ecli-completer.png"
-     style="width:300px" />
+     style="width:500px" />
 
-![alt text](../assets/img/ecli-completer.png "IMG")
 
 ### Whatsapp Messages Processing
 
