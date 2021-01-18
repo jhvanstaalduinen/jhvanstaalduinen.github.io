@@ -11,6 +11,11 @@ correctly formatted footnote based on just the ECLI of a case (crawling the webs
 It's available on <a href="https://github.com/jhvanstaalduinen/JuridischeVoetnoten">my GitHub</a>.
 
 
+<img src="../assets/img/ecli-completer.png"
+     style="width:300px" />
+
+![alt text](../assets/img/ecli-completer.png "IMG")
+
 ### Whatsapp Messages Processing
 
 <a href="../assets/docs/whatsapp_export_processor.ipynb">Click here</a> for a Jupyter Notebook (warning: not very polished or optimised).
