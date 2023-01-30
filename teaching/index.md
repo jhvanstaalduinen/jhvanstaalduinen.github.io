@@ -10,10 +10,12 @@ title: Teaching
 - Corporate Social Responsibility ([22074702](https://studiegids.universiteitleiden.nl/courses/110803/corporate-social-responsibility))
 - Technologie en privaatrecht ([22967272](https://studiegids.universiteitleiden.nl/courses/114988/technologie-en-privaatrecht))
 
+
 ### 2021-2022
 
 - Verbintenissenrecht (22014014)
 - Technologie en privaatrecht (22967272)
+
 
 ### Supervision
 
