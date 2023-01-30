@@ -14,3 +14,7 @@ title: Teaching
 
 - Verbintenissenrecht (22014014)
 - Technologie en privaatrecht (22967272)
+
+#### Supervision
+
+Bachelor and master theses on the topics of medical liability, professional liability, liability related to algorithms/AI.
