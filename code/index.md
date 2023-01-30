@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: full-width
 title: Code
 ---
 
