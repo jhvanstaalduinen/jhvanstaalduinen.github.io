@@ -13,8 +13,8 @@ title: Teaching
 
 ### 2021-2022
 
-- - Verbintenissenrecht (22014014)
-- - Technologie en privaatrecht (22967272)
+- &#10146; Verbintenissenrecht (22014014)
+- &#10146; Technologie en privaatrecht (22967272)
 
 
 ### Supervision
